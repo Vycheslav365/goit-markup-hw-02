@@ -35,8 +35,8 @@ body {
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
+	line-height: 2;
+		font-size: 14px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -117,8 +117,8 @@ body {
 	font-family: Raleway;
 	font-weight: bolder;
 	font-size: 26px;
-	line-height: 31px;
-	letter-spacing: 0.03em;
+	line-height: 2;
+  letter-spacing: 0.03em;
 	margin: 0 25px;
 }
 
@@ -135,7 +135,7 @@ body {
 	color: #222;
 	font-weight: 600;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 2;
 	letter-spacing: 0.02em;
 	margin: 0 25px;
 }
@@ -147,7 +147,7 @@ body {
 .top__line-info {
 	font-weight: 600;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 2;
 	letter-spacing: 0.02em;
 	display: flex;
 }
@@ -181,7 +181,7 @@ body {
 	padding-top: 200px;
 	font-weight: 600;
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 2;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -199,7 +199,7 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
@@ -219,16 +219,17 @@ body {
 	width: 270px;
 }
 .peculiarities-info h2{
+	font-weight: bold;
 	padding-bottom: 10px;
 	font-size: 14px;
-  line-height: 16px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .peculiarities-info p{
 	font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -237,7 +238,7 @@ body {
 .classes__title {
 	text-align: center;
 	font-size: 36px;
-  line-height: 42px;
+  line-height: 2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -260,7 +261,6 @@ body {
 	font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -280,8 +280,8 @@ border-radius: 0px 0px 4px 4px;
 	margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
+	line-height: 0.9;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -289,7 +289,6 @@ border-radius: 0px 0px 4px 4px;
 	margin-top: 10px;
 	font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -305,7 +304,7 @@ border-radius: 0px 0px 4px 4px;
 	font-family: Raleway;
 	font-weight: bolder;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 2;
 	letter-spacing: 0.03em;
 	padding-bottom: 10px;
 }
@@ -323,7 +322,7 @@ border-radius: 0px 0px 4px 4px;
 	font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -331,7 +330,7 @@ border-radius: 0px 0px 4px 4px;
 	font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -339,7 +338,7 @@ border-radius: 0px 0px 4px 4px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -357,17 +356,17 @@ border-radius: 0px 0px 4px 4px;
   height: 54px;
 	align-items: center;
 }
-.filters-element a {
+.filters-element button{
 	padding: 6px 22px;
 	font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
 	display: block;
 	height: 38px;
 	background: #F5F4FA;
 	border-radius: 4px;
   white-space: nowrap;
 }
-.filters-element a:hover{
+.filters-element button:hover{
 	cursor: pointer; color: #fff;
 	background: #2196F3;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -387,21 +386,19 @@ border-radius: 0px 0px 4px 4px;
 	margin-bottom: 90px;
 }
 .project h2{
-	font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 margin: 20px 24px 4px 24px;
 }
 .project p{
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 2;
 letter-spacing: 0.03em;
 color: #757575;
 margin: 4px 24px 20px 24px;
