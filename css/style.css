@@ -258,7 +258,6 @@ body {
 }
 .team__title {
 	padding: 90px 0 50px 0;
-	font-style: normal;
   font-weight: bold;
   font-size: 36px;
   text-align: center;
@@ -287,7 +286,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .team-card-sabtitle {
 	margin-top: 10px;
-	font-weight: normal;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -320,7 +318,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .footer__address-street {
 	font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -328,7 +325,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .footer__address-email {
 	font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -336,7 +332,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .footer__address-tell {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -386,7 +381,6 @@ border-radius: 0px 0px 4px 4px;
 	margin-bottom: 90px;
 }
 .project h2{
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
@@ -395,8 +389,6 @@ color: #212121;
 margin: 20px 24px 4px 24px;
 }
 .project p{
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 2;
 letter-spacing: 0.03em;
